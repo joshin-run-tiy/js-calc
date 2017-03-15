@@ -35,6 +35,8 @@ body {
   border-radius: 3px;
   border: 5px solid powderblue;
   background: yellow;
+  padding: 5px;
+  float: right;
 }
 
 

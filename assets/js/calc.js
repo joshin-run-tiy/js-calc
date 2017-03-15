@@ -23,3 +23,7 @@ function divide(num1, num2) {
   console.log(quotient);
   }
 }
+
+function modulo(num1) {
+  let result = num1 / 100    console.log(result);
+}
