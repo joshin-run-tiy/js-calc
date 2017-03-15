@@ -1,3 +1,6 @@
+/* =========================================
+BUTTONS: APPREHENSIVE APPRENTICE
+==========================================*/
 let btn1 = document.getElementById('btn-one');
 btn1.addEventListener("click", function () {
   console.log(1);

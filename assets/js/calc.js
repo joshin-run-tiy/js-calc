@@ -1,7 +1,29 @@
+/* =========================================
+QUESTIONS:
+==========================================*/
+
+HOW TO CAPTURE BUTTONS THAT ARE NOT SPECIFIC BUT GENERAL.
+
+/* =========================================
+CALCULATIONS:
+==========================================*/
 function add(num1, num2) {
   let sum = num1 + num2;
   console.log(sum);
 }
+
+
+
+function store() {
+  btn1 pressed
+  shown
+  plus
+  btn1 pressed
+  equals
+  answer
+}
+
+
 
 /* =========================================
 FUNCTIONS BELOW: SKILLED SORCERER
