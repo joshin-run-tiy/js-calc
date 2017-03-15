@@ -24,7 +24,7 @@ body {
   box-sizing: border-box;
   border-radius: 10px;
   border: 4px solid grey;
-  background: navy;
+  background: #FFF;
 }
 
 .output-box {
@@ -34,7 +34,7 @@ body {
   box-sizing: border-box;
   border-radius: 3px;
   border: 5px solid powderblue;
-  background: yellow;
+  background: #FFF;
   padding: 5px;
   float: right;
 }
@@ -49,6 +49,10 @@ button {
   border: 0px;
   border-radius: 3px;
   background-color: darkorange;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  font-size: 1em;
 }
 
 #btn-one {
@@ -91,13 +95,24 @@ button {
 
 }
 
-.operator {
-  color: red;
-}
-
 #btn-add {
-
+  color: brown;
+  background-color: powderblue;
 }
+
+#btn-equals {
+  color: brown;
+  background-color: powderblue;
+}
+
+.operator {
+  color: midnightblue;
+  background: #000;
+}
+
+/* =========================================
+BELOW: TO BE USED FOR SKILLED SORCERER
+==========================================*/
 
 #btn-subtract {
 
@@ -112,9 +127,5 @@ button {
 }
 
 #btn-modulo {
-
-}
-
-#btn-equals {
 
 }

@@ -1,40 +1,8 @@
 let btn1 = document.getElementById('btn-one');
 btn1.addEventListener("click", function () {
-  let numOne = 1;
-  console.log(numOne);
-  document.getElementById("output").innerHTML = numOne;
-  numbers(numOne);
+  console.log(1);
+  document.getElementById("output").innerHTML = 1;
 });
-
-function numbers(num) {
-  let input = [];
-  input.push(num);
-  num.toString("");
-  document.getElementById("output").innerHTML = num;
-}
-// function outputBoxAccum(n) {
-//   let input;
-//   input.push(n);
-//   document.getElementById("output").innerHTML = lettersGuessed.join("");
-// }
-
-
-
-// let digit = document.getElementById(".digits");
-// digit.addEventListener("click", function () {
-//
-// })
-
-
-
-function guessedArr(letter) {
-  lettersGuessed.push(letter);
-  document.getElementById("letter-box").innerHTML = lettersGuessed.join("・");
-}
-
-
-
-
 
 let btn2 = document.getElementById('btn-two');
 btn2.addEventListener("click", function () {
@@ -48,6 +16,110 @@ btn3.addEventListener("click", function () {
   document.getElementById("output").innerHTML = 3;
 });
 
+let btn4 = document.getElementById('btn-four');
+btn4.addEventListener("click", function () {
+  console.log(4);
+  document.getElementById("output").innerHTML = 4;
+});
+
+let btn5 = document.getElementById('btn-five');
+btn5.addEventListener("click", function () {
+  console.log(5);
+  document.getElementById("output").innerHTML = 5;
+});
+
+let btn6 = document.getElementById('btn-six');
+btn6.addEventListener("click", function () {
+  console.log(6);
+  document.getElementById("output").innerHTML = 6;
+});
+
+let btn7 = document.getElementById('btn-seven');
+btn7.addEventListener("click", function () {
+  console.log(7);
+  document.getElementById("output").innerHTML = 7;
+});
+
+let btn8 = document.getElementById('btn-eight');
+btn8.addEventListener("click", function () {
+  console.log(8);
+  document.getElementById("output").innerHTML = 8;
+});
+
+let btn9 = document.getElementById('btn-nine');
+btn9.addEventListener("click", function () {
+  console.log(9);
+  document.getElementById("output").innerHTML = 9;
+});
+
+let btn0 = document.getElementById('btn-zero');
+btn0.addEventListener("click", function () {
+  console.log(0);
+  document.getElementById("output").innerHTML = 0;
+});
+
+let btnAdd = document.getElementById('btn-add');
+btnAdd.addEventListener("click", function () {
+  console.log("+");
+  document.getElementById("output").innerHTML = "+";
+});
+
+let btnEquals = document.getElementById('btn-equals');
+btnEquals.addEventListener("click", function () {
+  console.log("=");
+  document.getElementById("output").innerHTML = "=";
+});
+
+/* =========================================
+BUTTONS: SKILLED SORCERER
+==========================================*/
+
+// let btn3 = document.getElementById('btn-three');
+// btn3.addEventListener("click", function () {
+//   console.log(3);
+//   document.getElementById("output").innerHTML = 3;
+// });
+
+/* =========================================
+FUNCTIONS BELOW: SKILLED SORCERER
+==========================================*/
+/* =========================================
+FUNCTIONS BELOW: SANDBOX CALC USE IDEAS
+==========================================*/
+// let btn1 = document.getElementById('btn-one');
+// btn1.addEventListener("click", function () {
+//   let numOne = 1;
+//   console.log(numOne);
+//   document
+//   .getElementById("output").innerHTML = numOne;
+//   numbers(numOne);
+// });
+
+// function numbers(num) {
+//   let input = [];
+//   input.push(num);
+//   num.toString("");
+//   document.getElementById("output").innerHTML = num;
+// };
+// // function outputBoxAccum(n) {
+// //   let input;
+// //   input.push(n);
+// //   document.getElementById("output").innerHTML = lettersGuessed.join("");
+// // }
+//
+//
+//
+// // let digit = document.getElementById(".digits");
+// // digit.addEventListener("click", function () {
+// //
+// // })
+//
+//
+//
+// function guessedArr(letter) {
+//   lettersGuessed.push(letter);
+//   document.getElementById("letter-box").innerHTML = lettersGuessed.join("・");
+// }
 // let btnAdd = document.getElementById('btn-add');
 // btn-add.addEventListener("click", function () {
 //
