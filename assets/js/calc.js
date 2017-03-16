@@ -37,7 +37,8 @@ function divide(num1, num2) {
 }
 
 function modulo(num1) {
-  let result = num1 / 100    console.log(result);
+  let result = num1 / 100;
+  console.log(result);
 }
 
 

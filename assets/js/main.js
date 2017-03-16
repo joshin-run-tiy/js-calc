@@ -2,21 +2,6 @@
 BUTTONS: APPREHENSIVE APPRENTICE
 ==========================================*/
 function onLoad () {
-  const buttons = document.querySelectorAll("input[type='button']");
-  for (let item of buttons) {
-    item.addEventListener("click", function () {
-    document.getElementById('output').innerHTML = item.value;
-    });
-  }
-}
-window.onload = onLoad;
-console.log('script loaded');
-/*===================================
-EXPERIMENTS
-===================================*/
-
-
-function onLoad () {
   let input = [];
   const buttons = document.querySelectorAll("input[type='button']");
   for (let item of buttons) {
@@ -30,19 +15,64 @@ function onLoad () {
 }
 window.onload = onLoad;
 console.log('script loaded');
+  // let opInput = "";
+  // const operation = document.querySelectorAll("input[class='operator button']");
+  //   // inputArrayNums = input
+  //   for (let item of operation) {
+  //     item.addEventListener("click", function () {
+  //     document.getElementById('output').innerHTML = item.value;
+  //     input.push(item.value);
+  //     console.log(input);
+  //     document.getElementById('output').innerHTML = input.join("");
 
-inpute = [1, add(), 2]
-
-function guessLetter() {
-  var letterInput = prompt("Guess a letter").toLowerCase();
-  guessedArr(letterInput);
-  compare(letterInput);
+// function operator {
+//   arr1 = input;
+//   opInput =
+//   input = [];
+// }
+//
+function addPrep () {
+  arr1 = input
+  addArr = [1, "add()"];
+  input = [];
+  console.log(addArr);
 }
 
-function guessedArr(letter) {
-  lettersGuessed.push(letter);
-  document.getElementById("letter-box").innerHTML = lettersGuessed.join("・");
-}
+// function equals {
+//
+// }
+//
+// 1. what value to put for operators
+// input = [1, add(), 2]
+// equals(input.split(""))
+//     arr1 = input.join("")
+//
+//   const operation = document.querySelectorAll("input[class='operator']")
+//     console.log(operation)
+//
+// if ( input !== operation ) {
+//   input.push(item.value);
+// }
+
+/*===================================
+EXPERIMENTS
+===================================*/
+
+
+
+
+// inpute = [1, add(), 2]
+//
+// function guessLetter() {
+//   var letterInput = prompt("Guess a letter").toLowerCase();
+//   guessedArr(letterInput);
+//   compare(letterInput);
+// }
+//
+// function guessedArr(letter) {
+//   lettersGuessed.push(letter);
+//   document.getElementById("letter-box").innerHTML = lettersGuessed.join("・");
+// }
 
 /*===================================
 END
