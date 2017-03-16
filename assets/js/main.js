@@ -2,7 +2,6 @@
 BUTTONS: APPREHENSIVE APPRENTICE
 ==========================================*/
 function onLoad () {
-  console.log("confirm");
   const buttons = document.querySelectorAll("input[type='button']");
   for (let item of buttons) {
     item.addEventListener("click", function () {
@@ -12,7 +11,42 @@ function onLoad () {
 }
 window.onload = onLoad;
 console.log('script loaded');
+/*===================================
+EXPERIMENTS
+===================================*/
 
+
+function onLoad () {
+  let input = [];
+  const buttons = document.querySelectorAll("input[type='button']");
+  for (let item of buttons) {
+    item.addEventListener("click", function () {
+    document.getElementById('output').innerHTML = item.value;
+    input.push(item.value);
+    console.log(input);
+    document.getElementById('output').innerHTML = input.join("");
+    });
+  }
+}
+window.onload = onLoad;
+console.log('script loaded');
+
+inpute = [1, add(), 2]
+
+function guessLetter() {
+  var letterInput = prompt("Guess a letter").toLowerCase();
+  guessedArr(letterInput);
+  compare(letterInput);
+}
+
+function guessedArr(letter) {
+  lettersGuessed.push(letter);
+  document.getElementById("letter-box").innerHTML = lettersGuessed.join("・");
+}
+
+/*===================================
+END
+===================================*/
 
 
 //
