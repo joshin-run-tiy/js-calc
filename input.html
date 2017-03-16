@@ -1,26 +1,3 @@
-# Notes
-
-### Flexbox
-
-- put flexbox display in parent container/elment
-
-# Steps
-- button function
-
-press button
-assign variable
-
-LINK: [example](https://www.codeproject.com/tips/631525/creating-calculator-using-html-css-and-javascript)
-LINK: [example2](http://stackoverflow.com/questions/14496531/adding-two-numbers-concatenates-them-instead-of-calculating-the-sum)
-
-//VARIABLE//
-//scope, where using, where coming from, where going to
-
-//FLEXBOX
-constrain
-set 33% of outer container
-
-__Notes__
 <!DOCTYPE html>
 <html>
   <head>
@@ -31,18 +8,31 @@ __Notes__
   </head>
   <body>
 
-    <input type="button" value="1">
+    <input class="button" type="button" value="1">
     <input type="button" value="2">
+    <input type="button" value="3">
+    <input type="button" value="4">
+    <input type="button" value="5">
+    <input type="button" value="6">
+    <input type="button" value="7">
+    <input type="button" value="8">
+    <input type="button" value="9">
+    <input type="button" value="0">
+    <input type="button" value="+">
+    <input type="button" value="=">
 
     <script>
       function onLoad () {
-        var buttons = document.querySelectorAll("input[type='button']");
+        console.log("yo");
+        const buttons = document.querySelectorAll("input[type='button']");
         console.log(buttons);
-        for (var i = 0; i < buttons.length; i++) {
-          buttons.item(i).addEventListener("click", function () {
-          console.log(buttons.item(i).value);
+        for (let item of buttons) {
+          item.addEventListener("click", function () {
+          // let item = buttons[]
+          console.log(item.value);
         });
       }
+    }
       window.onload = onLoad;
       console.log('script loaded');
     </script>

@@ -1,77 +1,108 @@
 /* =========================================
 BUTTONS: APPREHENSIVE APPRENTICE
 ==========================================*/
-let btn1 = document.getElementById('btn-one');
-btn1.addEventListener("click", function () {
-  console.log(1);
-  document.getElementById("output").innerHTML = 1;
-});
+function onLoad () {
+  console.log("confirm");
+  const buttons = document.querySelectorAll("input[type='button']");
+  for (let item of buttons) {
+    item.addEventListener("click", function () {
+    document.getElementById('output').innerHTML = item.value;
+    });
+  }
+}
+window.onload = onLoad;
+console.log('script loaded');
 
-let btn2 = document.getElementById('btn-two');
-btn2.addEventListener("click", function () {
-  console.log(2);
-  document.getElementById("output").innerHTML = 2;
-});
 
-let btn3 = document.getElementById('btn-three');
-btn3.addEventListener("click", function () {
-  console.log(3);
-  document.getElementById("output").innerHTML = 3;
-});
 
-let btn4 = document.getElementById('btn-four');
-btn4.addEventListener("click", function () {
-  console.log(4);
-  document.getElementById("output").innerHTML = 4;
-});
-
-let btn5 = document.getElementById('btn-five');
-btn5.addEventListener("click", function () {
-  console.log(5);
-  document.getElementById("output").innerHTML = 5;
-});
-
-let btn6 = document.getElementById('btn-six');
-btn6.addEventListener("click", function () {
-  console.log(6);
-  document.getElementById("output").innerHTML = 6;
-});
-
-let btn7 = document.getElementById('btn-seven');
-btn7.addEventListener("click", function () {
-  console.log(7);
-  document.getElementById("output").innerHTML = 7;
-});
-
-let btn8 = document.getElementById('btn-eight');
-btn8.addEventListener("click", function () {
-  console.log(8);
-  document.getElementById("output").innerHTML = 8;
-});
-
-let btn9 = document.getElementById('btn-nine');
-btn9.addEventListener("click", function () {
-  console.log(9);
-  document.getElementById("output").innerHTML = 9;
-});
-
-let btn0 = document.getElementById('btn-zero');
-btn0.addEventListener("click", function () {
-  console.log(0);
-  document.getElementById("output").innerHTML = 0;
-});
-
-let btnAdd = document.getElementById('btn-add');
-btnAdd.addEventListener("click", function () {
-  console.log("+");
-  document.getElementById("output").innerHTML = "+";
-});
-
-let btnEquals = document.getElementById('btn-equals');
-btnEquals.addEventListener("click", function () {
-  console.log("=");
-  document.getElementById("output").innerHTML = "=";
-});
+//
+//
+// let btn1 = document.getElementById('btn-one');
+// btn1.addEventListener("click", function () {
+// });
+//
+// let btn1 = document.getElementById('btn-one');
+// btn1.addEventListener("click", function () {
+// });
+//
+// btn1
+//
+//
+//
+//
+//
+// let btn1 = document.getElementById('btn-one');
+// btn1.addEventListener("click", function () {
+//   console.log(1);
+//   document.getElementById("output").innerHTML = 1;
+// });
+//
+// let btn2 = document.getElementById('btn-two');
+// btn2.addEventListener("click", function () {
+//   console.log(2);
+//   document.getElementById("output").innerHTML = 2;
+// });
+//
+// let btn3 = document.getElementById('btn-three');
+// btn3.addEventListener("click", function () {
+//   console.log(3);
+//   document.getElementById("output").innerHTML = 3;
+// });
+//
+// let btn4 = document.getElementById('btn-four');
+// btn4.addEventListener("click", function () {
+//   console.log(4);
+//   document.getElementById("output").innerHTML = 4;
+// });
+//
+// let btn5 = document.getElementById('btn-five');
+// btn5.addEventListener("click", function () {
+//   console.log(5);
+//   document.getElementById("output").innerHTML = 5;
+// });
+//
+// let btn6 = document.getElementById('btn-six');
+// btn6.addEventListener("click", function () {
+//   console.log(6);
+//   document.getElementById("output").innerHTML = 6;
+// });
+//
+// let btn7 = document.getElementById('btn-seven');
+// btn7.addEventListener("click", function () {
+//   console.log(7);
+//   document.getElementById("output").innerHTML = 7;
+// });
+//
+// let btn8 = document.getElementById('btn-eight');
+// btn8.addEventListener("click", function () {
+//   console.log(8);
+//   document.getElementById("output").innerHTML = 8;
+// });
+//
+// let btn9 = document.getElementById('btn-nine');
+// btn9.addEventListener("click", function () {
+//   console.log(9);
+//   document.getElementById("output").innerHTML = 9;
+// });
+//
+// let btn0 = document.getElementById('btn-zero');
+// btn0.addEventListener("click", function () {
+//   console.log(0);
+//   document.getElementById("output").innerHTML = 0;
+// });
+//
+// let btnAdd = document.getElementById('btn-add');
+// btnAdd.addEventListener("click", function () {
+//   console.log("+");
+//   document.getElementById("output").innerHTML = "+";
+// });
+//
+// let btnEquals = document.getElementById('btn-equals');
+// btnEquals.addEventListener("click", function () {
+//   console.log("=");
+//   document.getElementById("output").innerHTML = "=";
+// });
+// ======================================
 
 /* =========================================
 BUTTONS: SKILLED SORCERER

@@ -2,7 +2,7 @@
 QUESTIONS:
 ==========================================*/
 
-HOW TO CAPTURE BUTTONS THAT ARE NOT SPECIFIC BUT GENERAL.
+// HOW TO CAPTURE BUTTONS THAT ARE NOT SPECIFIC BUT GENERAL.
 
 /* =========================================
 CALCULATIONS:
@@ -14,14 +14,14 @@ function add(num1, num2) {
 
 
 
-function store() {
-  btn1 pressed
-  shown
-  plus
-  btn1 pressed
-  equals
-  answer
-}
+// function store() {
+//   btn1 pressed
+//   shown
+//   plus
+//   btn1 pressed
+//   equals
+//   answer
+// }
 
 
 
@@ -52,3 +52,9 @@ FUNCTIONS BELOW: SKILLED SORCERER
 // function modulo(num1) {
 //   let result = num1 / 100    console.log(result);
 // }
+
+
+// put in array = call back
+// num1, num2
+//
+// functions (array of numbers, callback())

@@ -44,7 +44,7 @@ body {
 ******** BUTTONS *****************
 ================================*/
 
-button {
+.button {
   color: white;
   border: 0px;
   border-radius: 3px;
@@ -54,6 +54,21 @@ button {
   margin: 10px;
   font-size: 1em;
 }
+
+.operator {
+  background-color: powderblue;
+  color: midnightblue;
+}
+
+#btn--add {
+
+}
+
+#btn--equals {
+
+}
+
+/*-------*/
 
 #btn-one {
 
@@ -103,11 +118,6 @@ button {
 #btn-equals {
   color: brown;
   background-color: powderblue;
-}
-
-.operator {
-  color: midnightblue;
-  background: #000;
 }
 
 /* =========================================
