@@ -60,6 +60,11 @@ body {
   color: midnightblue;
 }
 
+#btn--clear {
+  background-color: #8b0000;
+  color: #fff;
+}
+
 #btn--add {
 
 }

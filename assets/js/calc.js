@@ -12,46 +12,33 @@ function add(num1, num2) {
   console.log(sum);
 }
 
-
-
-// function store() {
-//   btn1 pressed
-//   shown
-//   plus
-//   btn1 pressed
-//   equals
-//   answer
-// }
-
-
-
 /* =========================================
 FUNCTIONS BELOW: SKILLED SORCERER
 ==========================================*/
-// function subtract(num1, num2) {
-//   let difference = num1 - num2;
-//   console.log(difference);
-// }
-//
-// function multiply(num1, num2) {
-//   let product = num1 * num2;
-//   console.log(product);
-// }
-//
-// function divide(num1, num2) {
-//   let quotient;
-//   if ( num2 === 0) {
-//     console.log("error");
-//     return;
-//   } else {
-//   quotient = num1 / num2;
-//   console.log(quotient);
-//   }
-// }
-//
-// function modulo(num1) {
-//   let result = num1 / 100    console.log(result);
-// }
+function subtract(num1, num2) {
+  let difference = num1 - num2;
+  console.log(difference);
+}
+
+function multiply(num1, num2) {
+  let product = num1 * num2;
+  console.log(product);
+}
+
+function divide(num1, num2) {
+  let quotient;
+  if ( num2 === 0) {
+    console.log("error");
+    return;
+  } else {
+  quotient = num1 / num2;
+  console.log(quotient);
+  }
+}
+
+function modulo(num1) {
+  let result = num1 / 100    console.log(result);
+}
 
 
 // put in array = call back
