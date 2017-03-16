@@ -31,13 +31,14 @@ console.log('script loaded');
 //   input = [];
 // }
 //
-function addPrep () {
-  arr1 = input
-  addArr = [1, "add()"];
-  input = [];
-  console.log(addArr);
-}
-
+//=======================================
+// function addPrep () {
+//   arr1 = input
+//   addArr = [1, "add()"];
+//   input = [];
+//   console.log(addArr);
+// }
+//=======================================
 // function equals {
 //
 // }
@@ -61,7 +62,7 @@ EXPERIMENTS
 
 
 
-// inpute = [1, add(), 2]
+// input = [1, add(), 2]
 //
 // function guessLetter() {
 //   var letterInput = prompt("Guess a letter").toLowerCase();
