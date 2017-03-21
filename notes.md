@@ -20,6 +20,14 @@ LINK: [example2](http://stackoverflow.com/questions/14496531/adding-two-numbers-
 constrain
 set 33% of outer container
 
+### Firefox $0
+* shows what's going on???
+
+### Equals
+* named or id field becomes a variable
+  * naming
+
+
 __Notes__
 <!DOCTYPE html>
 <html>

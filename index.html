@@ -12,8 +12,8 @@
         <p id="output"></p>
       </div>
       <div class="button--grid flex-item">
-        <input class="button" type="button" value="7">
-        <input class="button" type="button" value="8">
+        <input class="button" type="button" name="btn-seven" value="7">
+        <input class="button" type="button" name="btn-eight" value="8">
         <input class="button" type="button" value="9">
         <input class="operator button" type="button" value="/">
         <input class="button" type="button" value="4">
@@ -25,9 +25,9 @@
         <input class="button" type="button" value="3">
         <input class="operator button" type="button" value="-">
         <input class="button" type="button" value="0">
-        <button onclick="location.reload();" id="btn--clear" class="button">C</button>
-        <input class="operator button" type="button" value="=">
-        <input class="operator button" onclick=addPrep()" type="button" value="+">
+        <button onclick="location.reload();" id="btn-clear" class="button">C</button>
+        <input id="btn-equals" class="operator button" type="button" value="=">
+        <button class="operator button" value="add()">+</button>
       </div>
     </div>
     <script type="text/javascript" src="./assets/js/main.js"></script>

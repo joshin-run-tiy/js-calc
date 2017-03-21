@@ -4,9 +4,12 @@ BUTTONS: APPREHENSIVE APPRENTICE
 function onLoad () {
   let input = [];
   const buttons = document.querySelectorAll("input[type='button']");
+  //create a nodelist for all 'buttons'
   for (let item of buttons) {
     item.addEventListener("click", function () {
+      //anonymous function
     document.getElementById('output').innerHTML = item.value;
+    //item.value is the value of the given button
     input.push(item.value);
     console.log(input);
     document.getElementById('output').innerHTML = input.join("");
@@ -14,7 +17,9 @@ function onLoad () {
   }
 }
 window.onload = onLoad;
+// window.onload = onLoadCalc;
 console.log('script loaded');
+
   // let opInput = "";
   // const operation = document.querySelectorAll("input[class='operator button']");
   //   // inputArrayNums = input

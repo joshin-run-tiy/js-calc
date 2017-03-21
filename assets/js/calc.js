@@ -4,6 +4,44 @@ QUESTIONS:
 
 // HOW TO CAPTURE BUTTONS THAT ARE NOT SPECIFIC BUT GENERAL.
 
+
+
+// const add = (x, y) => x + y;
+//
+// function equals() {
+//
+// }
+//------------------------------
+// function onLoadCalc () {
+//   let input = [];
+//   const buttonsCalc = document.querySelectorAll("input[type='button']");
+//   //create a nodelist for all 'buttons'
+//   for (let item of buttonsCalc) {
+//     item.addEventListener("click", function () {
+//     document.getElementById('output').innerHTML = item.value;
+//     inputCalc.push(item.value);
+//     console.log(inputCalc);
+//     });
+//     function operatorCatch () {
+//       if (document.querySelectorAll("input[class='operator']")) {
+//         ???????.value //which is add() as an example
+//       }
+//     }
+//     function equals() {
+//       inputCalc
+//     }
+//   }
+// }
+//
+//
+//
+// //
+// input // will equal an array [1, 2, 3]
+//-----------------------------
+function add(input) {
+  console.log
+}
+
 /* =========================================
 CALCULATIONS:
 ==========================================*/
@@ -41,8 +79,17 @@ function modulo(num1) {
   console.log(result);
 }
 
+function equal(function(arr1, arr2)) {
+
+  console.log(result);
+}
 
 // put in array = call back
 // num1, num2
 //
 // functions (array of numbers, callback())
+
+// function equals
+function equals (arr1, arr2, cb) {
+  let result = cb(arr1, arr2);
+}
