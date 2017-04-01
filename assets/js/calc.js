@@ -12,26 +12,26 @@ QUESTIONS:
 //
 // }
 //------------------------------
-// function onLoadCalc () {
-//   let input = [];
-//   const buttonsCalc = document.querySelectorAll("input[type='button']");
-//   //create a nodelist for all 'buttons'
-//   for (let item of buttonsCalc) {
-//     item.addEventListener("click", function () {
-//     document.getElementById('output').innerHTML = item.value;
-//     inputCalc.push(item.value);
-//     console.log(inputCalc);
-//     });
-//     function operatorCatch () {
-//       if (document.querySelectorAll("input[class='operator']")) {
-//         ???????.value //which is add() as an example
-//       }
-//     }
-//     function equals() {
-//       inputCalc
-//     }
-//   }
-// }
+function operation () {
+  let inputOp = [];
+  const buttonsOp = document.querySelectorAll(".operator");
+  //create a nodelist for all 'buttons'
+  for (let item of buttonsOp) {
+    item.addEventListener("click", function () {
+    document.getElementById('output').innerHTML = item.value;
+    inputCalc.push(item.value);
+    console.log(inputCalc);
+    });
+    function operatorCatch () {
+      if (document.querySelectorAll("input[class='operator']")) {
+        ???????.value //which is add() as an example
+      }
+    }
+    function equals() {
+      inputCalc
+    }
+  }
+}
 //
 //
 //
@@ -48,6 +48,10 @@ CALCULATIONS:
 function add(num1, num2) {
   let sum = num1 + num2;
   console.log(sum);
+}
+
+const add = function add(num1, num2) {
+  return num1 + num2;
 }
 
 /* =========================================
@@ -79,10 +83,10 @@ function modulo(num1) {
   console.log(result);
 }
 
-function equal(function(arr1, arr2)) {
-
-  console.log(result);
-}
+// function equal(function(arr1, arr2)) {
+//
+//   console.log(result);
+// }
 
 // put in array = call back
 // num1, num2
@@ -92,4 +96,13 @@ function equal(function(arr1, arr2)) {
 // function equals
 function equals (arr1, arr2, cb) {
   let result = cb(arr1, arr2);
+}
+
+
+const equalButton = function() {
+  document.querySelector("#equalButton");
+  inputEQ = inputString.split(" ");
+  console.log(input);
+  let a = parseFloat(input[0]);
+  let b = parseFloat(input[2]);
 }

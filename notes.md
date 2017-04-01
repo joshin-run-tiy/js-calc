@@ -1,4 +1,10 @@
-# Notes
+# __Notes__
+
+## Rob Notes
+* const equalbutton = function() {
+  console.log("hell");
+  input inputstring
+}
 
 ### Flexbox
 

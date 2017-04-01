@@ -1,7 +1,7 @@
 /* =========================================
 BUTTONS: APPREHENSIVE APPRENTICE
 ==========================================*/
-function onLoad () {
+function calc () {
   let input = [];
   const buttons = document.querySelectorAll("input[type='button']");
   //create a nodelist for all 'buttons'
@@ -16,9 +16,24 @@ function onLoad () {
     });
   }
 }
-window.onload = onLoad;
-// window.onload = onLoadCalc;
+window.onload = calc;
 console.log('script loaded');
+// window.onload = onLoadCalc;
+
+//
+//------------------------------------------
+// const calculate = function(a, b, cb) {
+//   return cb(a, b);
+// };
+
+// function () {
+//   const buttons = document.querySelectorAll(".number")
+//   //console.log("buttons" are:", buttons)
+//   for (let i = 0; i < buttons[i];
+//   button.addEventListener("click", function() {
+//     numToString(button.value);
+//   }
+// }----------------------------------------
 
   // let opInput = "";
   // const operation = document.querySelectorAll("input[class='operator button']");
