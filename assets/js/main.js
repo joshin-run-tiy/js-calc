@@ -18,13 +18,12 @@ function calc () {
 }
 window.onload = calc;
 console.log('script loaded');
-// window.onload = onLoadCalc;
 
-//
-//------------------------------------------
-// const calculate = function(a, b, cb) {
-//   return cb(a, b);
-// };
+
+const calculate = function(a, b, cb) {
+  if ()
+  return cb(a, b);
+};
 
 // function () {
 //   const buttons = document.querySelectorAll(".number")

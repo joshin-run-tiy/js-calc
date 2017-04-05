@@ -70,6 +70,14 @@ body {
   color: orange;
   font-weight: bold;
   border: 3px solid orange;
+  height: 50px;
+  width: 35px;
+  margin: 5px;
+}
+
+.op {
+  border-color: slategray;
+  color: slategray;
 }
 
 #btn-clear {
